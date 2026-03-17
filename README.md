@@ -51,7 +51,7 @@ __global__ void bubbleSortKernel(int *d_arr, int n) {
             }
         }
 
-        __syncthreads(); // IMPORTANT: inside loop
+        __syncthreads();
     }
 }
 
